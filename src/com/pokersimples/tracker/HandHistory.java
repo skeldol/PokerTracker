@@ -1,3 +1,4 @@
+package com.pokersimples.tracker;
 import java.math.BigDecimal;
 
 import javax.persistence.Column;

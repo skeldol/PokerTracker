@@ -1,3 +1,4 @@
+package com.pokersimples.tracker;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -10,7 +11,7 @@ import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
 import com.pokersimples.bo.Hand;
-import com.pokersimples.parser.pokerstars.PokerStarsParser;
+import com.pokersimples.parser.handhistory.pokerstars.PokerStarsParser;
 
 public class Application {
 	public static void main(String[] args) {
